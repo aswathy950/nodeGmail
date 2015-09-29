@@ -1,0 +1,18 @@
+<div class="draft">
+  <ul>
+    <li  ng-repeat="draft in draftitems.drafts" >
+    <input type="checkbox" name="name" value="" >
+    <span  class="glyphicon glyphicon-star {{draft.starred}} " aria-hidden="true" ng-click="setActive(draft, draftitems,$index)" ></span>
+        <div class="first">
+      <span>{{draft.person}}</span>
+    </div>
+    <div class="second">
+      <span>{{draft.subject}}</span>
+    </div>
+    <div class="third">
+      <span>{{draft.time}}</span>
+    </div>
+    </li>
+  </ul>
+
+</div>

@@ -1,0 +1,18 @@
+<div class="inbox">
+  <ul>
+    <li ng-repeat="inbox in inboxitems">
+      <input type="checkbox" name="name" value="" >
+      <span  class="glyphicon glyphicon-star {{inbox.starred}} " aria-hidden="true" ng-click="setActive(inbox, inboxitems,$index)" ></span>
+        <div class="first">
+      <span>{{inbox.person}}</span>
+    </div>
+    <div class="second">
+      <span>{{inbox.subject}}</span>
+    </div>
+    <div class="third">
+      <span>{{inbox.time}}</span>
+        </div>
+    </li>
+  </ul>
+
+</div>

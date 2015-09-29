@@ -1,0 +1,22 @@
+{
+  "sentmails":[{
+        "starred":false,
+      "person":"ajay",
+      "subject":"dosa mela",
+      "time":8.21
+
+    },{
+        "starred":false,
+      "person":"manu",
+      "subject":"assignment",
+      "time":9
+
+      },{
+          "starred":false,
+        "person":"sruthy",
+        "subject":"project",
+        "time":10
+      }
+    ]
+
+}

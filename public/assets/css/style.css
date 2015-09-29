@@ -1,0 +1,105 @@
+body {
+  background-image: url("http://rack.2.mshcdn.com/media/ZgkyMDEzLzEyLzE3LzhhL21hdmVyaWNrc2JhLjYwMzQ2LmpwZwpwCXRodW1iCTk1MHg1MzQjCmUJanBn/3e94bf73/5a5/mavericks-background.jpg");
+  background-size: cover;
+}
+ header img{
+  margin-left: 20px;
+  vertical-align: top;
+  margin-top: 15px;
+}
+.search-div {
+  margin-left: 30px;
+  margin-top: 30px;
+  width:600px;
+  display: inline-block;
+}
+.input-group-addon:last-child {
+    border-left: 0px none;
+    background-color: #4683ea;
+    border-color: #4683ea;
+}
+.name {
+  float: right;
+  margin-top: 35px;
+  margin-right: 10px;
+}
+.iccons {
+  margin-top: 15px;
+  margin-right: 20px;
+  float: right;
+
+}
+.top_bar{
+  width: 100%;
+  height: 50px;
+  border-top: 1px solid 	#2E8B57;
+  border-bottom: 1px solid #2E8B57;
+}
+.list {
+  margin-left: 20px;
+  float: left;
+  width: 150px;
+  margin-top: 10px;
+
+
+}
+.list button {
+ width: 100px;
+ height: 30px;
+}
+.list ul{
+  list-style: none;
+
+  margin-left: -35px;
+}
+.list li{
+  margin-top: 10px;
+  width: 100px;
+  font-weight: bold;
+  padding-left: 8px;
+}
+.list li:hover{
+  background-color: black;
+}
+.list li a{
+  color: white;
+  text-decoration: none;
+}
+.content {
+  width :1120px;
+  margin-left:150px;
+    margin-top: 10px;
+    height: 100%;
+
+}
+.content ul{
+  list-style: none;
+}
+.content li {
+  padding-left: 8px;
+  font-size: 20px;
+  height: 40px;
+  color: silver;
+  border-bottom: 1px solid silver;
+   background-image: url("http://www.juliosoler.net/images/bg2.jpg");
+}
+.true{
+  color: yellow;
+}
+.false {
+  color: white;
+}
+.first {
+  display: inline-block;
+  width: 100px;
+  margin-left: 10px;
+  }
+.second {
+  display: inline-block;
+  margin-left: 30px;
+}
+.third {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}

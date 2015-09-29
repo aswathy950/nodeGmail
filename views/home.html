@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="gmailApp">
+  <head>
+    <meta charset="utf-8">
+    <title>gmail</title>
+     <script src="http://localhost:3000/assets/plugin/angular.min.js"></script>
+   <script src="http://localhost:3000/assets/plugin/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script>
+<script src="http://localhost:3000/assets/plugin/jquery.js"></script>
+<script src="http://localhost:3000/assets/plugin/underscore.js"></script>
+   <script src="http://localhost:3000/assets/plugin/angular-ui-router.min.js"></script>
+   <script src="http://localhost:3000/app/scripts/module.js" charset="utf-8"></script>
+    <script src="http://localhost:3000/app/scripts/route.js" charset="utf-8"></script>
+      <script src="http://localhost:3000/app/service/service.js" charset="utf-8"></script>
+
+        <script src="http://localhost:3000/app/controller/draftcontroller.js" charset="utf-8"></script>
+      <script src="http://localhost:3000/app/controller/outboxcontroller.js" charset="utf-8"></script>
+  <script src="http://localhost:3000/app/controller/inboxcontroller.js" charset="utf-8"></script>
+    <script src="http://localhost:3000/app/controller/starcontroller.js" charset="utf-8"></script>
+    <script src="http://localhost:3000/app/controller/homecontroller.js" charset="utf-8"></script>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+     <link rel="stylesheet" href="http://localhost:3000/assets/css/style.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body ng-controller="homeController">
+  <header>
+      <img src="https://www.google.com/a/qburst.com/images/logo.gif?alpha=1&service=google_white" alt="" width="150px" />
+   <div class="search-div">
+     <div class=" input-group ">
+       <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon2">
+       <span class="input-group-addon" id="basic-addon2" >search</span>
+     </div>
+   </div>
+
+   <div class="iccons">
+     <img src="https://www.shoptab.net/blog/wp-content/uploads/2014/07/profile-circle.png" alt="" width="40px" />
+   </div>
+    <h class="name"><a href="index">logout</a></h>
+ <h class="name">Welcome <%= title %></h>
+
+    </header>
+    <div class="top_bar">
+
+    </div>
+    <div class="list">
+    <button type="button" name="button">compose</button>
+    <ul>
+      <li ui-sref="inbox"><a >inbox</a></li>
+      <li ui-sref="sent"><a  >sent mails</a></li>
+      <li ui-sref="draft"><a  >drafts</a></li>
+      <li ui-sref="starred"><a >starred</a></li>
+
+    </ul>
+    </div>
+    <div class="content">
+      <div ui-view>  </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>

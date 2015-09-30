@@ -3,24 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>gmail</title>
-     <script src="http://localhost:3000/assets/plugin/angular.min.js"></script>
-   <script src="http://localhost:3000/assets/plugin/angular-route.js"></script>
+     <script src="assets/plugin/angular.min.js"></script>
+   <script src="assets/plugin/angular-route.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script>
-<script src="http://localhost:3000/assets/plugin/jquery.js"></script>
-<script src="http://localhost:3000/assets/plugin/underscore.js"></script>
-   <script src="http://localhost:3000/assets/plugin/angular-ui-router.min.js"></script>
-   <script src="http://localhost:3000/app/scripts/module.js" charset="utf-8"></script>
-    <script src="http://localhost:3000/app/scripts/route.js" charset="utf-8"></script>
-      <script src="http://localhost:3000/app/service/service.js" charset="utf-8"></script>
+<script src="assets/plugin/jquery.js"></script>
+<script src="assets/plugin/underscore.js"></script>
+   <script src="assets/plugin/angular-ui-router.min.js"></script>
+   <script src="app/scripts/module.js" charset="utf-8"></script>
+    <script src="app/scripts/route.js" charset="utf-8"></script>
+      <script src="app/service/service.js" charset="utf-8"></script>
 
-        <script src="http://localhost:3000/app/controller/draftcontroller.js" charset="utf-8"></script>
-      <script src="http://localhost:3000/app/controller/outboxcontroller.js" charset="utf-8"></script>
-  <script src="http://localhost:3000/app/controller/inboxcontroller.js" charset="utf-8"></script>
-    <script src="http://localhost:3000/app/controller/starcontroller.js" charset="utf-8"></script>
-    <script src="http://localhost:3000/app/controller/homecontroller.js" charset="utf-8"></script>
+        <script src="app/controller/draftcontroller.js" charset="utf-8"></script>
+      <script src="app/controller/outboxcontroller.js" charset="utf-8"></script>
+  <script src="app/controller/inboxcontroller.js" charset="utf-8"></script>
+    <script src="app/controller/starcontroller.js" charset="utf-8"></script>
+    <script src="app/controller/homecontroller.js" charset="utf-8"></script>
 
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-     <link rel="stylesheet" href="http://localhost:3000/assets/css/style.css" media="screen" title="no title" charset="utf-8">
+     <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body ng-controller="homeController">
   <header>
@@ -35,8 +35,8 @@
    <div class="iccons">
      <img src="https://www.shoptab.net/blog/wp-content/uploads/2014/07/profile-circle.png" alt="" width="40px" />
    </div>
-    <h class="name"><a href="index">logout</a></h>
- <h class="name">Welcome <%= title %></h>
+    <h class="name"><a href="logout">logout</a></h>
+ <h class="name"><%= title %></h>
 
     </header>
     <div class="top_bar">

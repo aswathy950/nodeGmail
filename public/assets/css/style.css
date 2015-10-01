@@ -50,7 +50,7 @@ body {
 .list ul{
   list-style: none;
 
-  margin-left: -35px;
+  
 }
 .list li{
   margin-top: 10px;
@@ -102,4 +102,10 @@ body {
   display: inline-block;
   float: right;
   margin-right: 20px;
+}
+.compose{
+  margin-left: 150px;
+  width: 700px;
+  height: 500px;
+  background-color: white;
 }

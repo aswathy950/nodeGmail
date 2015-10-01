@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>gmail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+
      <script src="assets/plugin/angular.min.js"></script>
    <script src="assets/plugin/angular-route.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-resource.min.js"></script>
@@ -43,7 +45,7 @@
 
     </div>
     <div class="list">
-    <button type="button" name="button">compose</button>
+    <button type="button" name="button"><a  ui-sref="compose">compose</a></button>
     <ul>
       <li ui-sref="inbox"><a >inbox</a></li>
       <li ui-sref="sent"><a  >sent mails</a></li>

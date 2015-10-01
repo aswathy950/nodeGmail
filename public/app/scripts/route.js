@@ -3,6 +3,12 @@ gmailApp.config(function($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/inbox');
 
     $stateProvider
+    .state('compose', {
+            url:'/compose',
+            templateUrl: 'app/views/compose.html',
+
+            
+        })
     .state('inbox', {
             url:'/inbox',
             templateUrl: 'app/views/inbox.html',
